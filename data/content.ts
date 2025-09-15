@@ -1,0 +1,45 @@
+
+import { Step, Tradition, Service, Book } from '../types';
+
+export const STEPS: Step[] = [
+    { id: 1, number: "Paso 1", title: "Honestidad", text: "Admitimos que éramos impotentes ante el alcohol, que nuestras vidas se habían vuelto ingobernables.", commentary: "El primer paso hacia la recuperación es reconocer la verdad. Este es el fundamento sobre el que se construyen todos los demás pasos." },
+    { id: 2, number: "Paso 2", title: "Esperanza", text: "Llegamos a creer que un Poder superior a nosotros mismos podría devolvernos el sano juicio.", commentary: "La esperanza nace cuando aceptamos que no estamos solos y que una fuerza de bien puede guiarnos." },
+    { id: 3, number: "Paso 3", title: "Fe", text: "Decidimos poner nuestras voluntades y nuestras vidas al cuidado de Dios, como nosotros lo concebimos.", commentary: "La fe es una acción. Se trata de confiar en un Poder Superior y permitir que guíe nuestras decisiones y acciones." },
+    { id: 4, number: "Paso 4", title: "Valor", text: "Sin miedo hicimos un minucioso inventario moral de nosotros mismos.", commentary: "El valor nos permite mirar nuestro pasado con honestidad, identificando nuestros errores para poder sanar." },
+    { id: 5, number: "Paso 5", title: "Integridad", text: "Admitimos ante Dios, ante nosotros mismos, y ante otro ser humano, la naturaleza exacta de nuestros defectos.", commentary: "La integridad se fortalece al compartir nuestras verdades. Rompemos el aislamiento y la vergüenza." },
+    { id: 6, number: "Paso 6", title: "Disposición", text: "Estuvimos enteramente dispuestos a dejar que Dios nos liberase de todos estos defectos de carácter.", commentary: "La disposición es la clave para el cambio. Abrimos nuestro corazón para que nuestros defectos sean eliminados." },
+    { id: 7, number: "Paso 7", title: "Humildad", text: "Humildemente le pedimos que nos liberase de nuestros defectos.", commentary: "La humildad es aceptar quiénes somos y pedir ayuda para ser mejores. Es la antítesis del egoísmo." },
+    { id: 8, number: "Paso 8", title: "Buena Voluntad", text: "Hicimos una lista de todas aquellas personas a quienes habíamos ofendido y estuvimos dispuestos a reparar el daño que les causamos.", commentary: "La buena voluntad nos prepara para enmendar nuestras relaciones y limpiar el pasado." },
+    { id: 9, number: "Paso 9", title: "Justicia", text: "Reparamos directamente a cuantos nos fue posible el daño causado, excepto cuando el hacerlo implicaba perjuicio para ellos o para otros.", commentary: "La justicia se manifiesta a través de acciones. Buscamos reparar el daño y vivir responsablemente." },
+    { id: 10, number: "Paso 10", title: "Perseverancia", text: "Continuamos haciendo nuestro inventario personal y cuando nos equivocábamos lo admitíamos inmediatamente.", commentary: "La recuperación es un proceso diario. La perseverancia nos mantiene en el camino del crecimiento espiritual." },
+    { id: 11, number: "Paso 11", title: "Conciencia Espiritual", text: "Buscamos a través de la oración y la meditación mejorar nuestro contacto consciente con Dios, como nosotros lo concebimos, pidiéndole solamente que nos dejase conocer su voluntad para con nosotros y nos diese la fortaleza para cumplirla.", commentary: "Profundizamos nuestra conexión espiritual para encontrar guía, paz y propósito en nuestra vida diaria." },
+    { id: 12, number: "Paso 12", title: "Servicio", text: "Habiendo obtenido un despertar espiritual como resultado de estos pasos, tratamos de llevar este mensaje a los alcohólicos y de practicar estos principios en todos nuestros asuntos.", commentary: "El servicio es la culminación de nuestra recuperación. Llevamos el mensaje de esperanza a otros y vivimos los principios en todo lo que hacemos." },
+];
+
+export const TRADITIONS: Tradition[] = [
+    { id: 1, number: "Tradición 1", title: "Unidad", text: "Nuestro bienestar común debe tener la preferencia; la recuperación personal depende de la unidad de A.A.", application: "La unidad del grupo es la base de la recuperación individual. Sin ella, A.A. no podría sobrevivir." },
+    { id: 2, number: "Tradición 2", title: "Liderazgo de Servicio", text: "Para el propósito de nuestro grupo sólo existe una autoridad fundamental: un Dios amoroso tal como se exprese en la conciencia de nuestro grupo. Nuestros líderes no son más que servidores de confianza; no gobiernan.", application: "Los líderes en A.A. son servidores, no gobernantes. La autoridad final es la conciencia informada del grupo." },
+    { id: 3, number: "Tradición 3", title: "El Único Requisito", text: "El único requisito para ser miembro de A.A. es querer dejar de beber.", application: "Cualquier persona que tenga el deseo de dejar la bebida es bienvenida. No hay otras condiciones." },
+    { id: 4, number: "Tradición 4", title: "Autonomía del Grupo", text: "Cada grupo debe ser autónomo, excepto en asuntos que afecten a otros grupos o a A.A., considerado como un todo.", application: "Los grupos tienen la libertad de manejar sus propios asuntos, siempre que no perjudiquen a otros grupos o a A.A. en su totalidad." },
+    { id: 5, number: "Tradición 5", title: "Propósito Primordial", text: "Cada grupo tiene un solo propósito primordial: llevar el mensaje al alcohólico que aún está sufriendo.", application: "El objetivo principal de cualquier grupo de A.A. es ayudar a otros alcohólicos a alcanzar la sobriedad." },
+    { id: 6, number: "Tradición 6", title: "Sin Afiliaciones Externas", text: "Un grupo de A.A. nunca debe respaldar, financiar o prestar el nombre de A.A. a ninguna entidad allegada o empresa ajena, para evitar que los problemas de dinero, propiedad y prestigio nos desvíen de nuestro propósito primordial.", application: "A.A. se mantiene enfocado en su propósito al no involucrarse en asuntos externos." },
+    { id: 7, number: "Tradición 7", title: "Autosuficiencia", text: "Todo grupo de A.A. debe mantenerse completamente a sí mismo, negándose a recibir contribuciones de afuera.", application: "Los grupos de A.A. se financian con las contribuciones voluntarias de sus propios miembros." },
+    { id: 8, number: "Tradición 8", title: "No Profesionalismo", text: "A.A. nunca tendrá carácter profesional, pero nuestros centros de servicio pueden emplear trabajadores especiales.", application: "El trabajo de Paso Doce es siempre voluntario y gratuito, pero los centros de servicio pueden contratar personal para tareas específicas." },
+    { id: 9, number: "Tradición 9", title: "Organización Mínima", text: "A.A. como tal, nunca debe ser organizada; pero podemos crear juntas o comités de servicio que sean directamente responsables ante aquéllos a quienes sirven.", application: "A.A. tiene una estructura mínima para coordinar sus servicios, pero evita la burocracia." },
+    { id: 10, number: "Tradición 10", title: "Sin Opiniones Externas", text: "A.A. no tiene opinión acerca de asuntos ajenos a sus actividades; por consiguiente su nombre nunca debe mezclarse en polémicas públicas.", application: "A.A. mantiene su unidad y enfoque al no tomar partido en controversias públicas." },
+    { id: 11, number: "Tradición 11", title: "Atracción, no Promoción", text: "Nuestra política de relaciones públicas se basa más bien en la atracción que en la promoción; necesitamos mantener siempre nuestro anonimato personal ante la prensa, la radio y el cine.", application: "Atraemos a nuevos miembros por el ejemplo de nuestra recuperación, no mediante la publicidad." },
+    { id: 12, number: "Tradición 12", title: "Anonimato", text: "El anonimato es la base espiritual de todas nuestras tradiciones, recordándonos siempre anteponer los principios a las personalidades.", application: "El anonimato protege a los miembros y fomenta la humildad, asegurando que los principios de A.A. estén por encima de cualquier individuo." },
+];
+
+export const SERVICES: Service[] = [
+    { id: 1, name: "Oficina de Servicios Generales de A.A.", contact: "Varía según el país", location: "Internacional", link: "https://www.aa.org" },
+    { id: 2, name: "Intergrupos / Oficinas Centrales Locales", contact: "Consultar directorio local", location: "Local", link: "https://www.aa.org/find-aa" },
+    { id: 3, name: "Reuniones en Línea", contact: "Directorio en línea", location: "Virtual", link: "https://aa-intergroup.org/meetings/" }
+];
+
+export const LITERATURE: Book[] = [
+    { id: 1, title: "Alcohólicos Anónimos (El Libro Grande)", type: "Libro Básico", author: "A.A. World Services, Inc.", link: "https://www.aa.org/the-big-book" },
+    { id: 2, title: "Doce Pasos y Doce Tradiciones", type: "Libro de Estudio", author: "A.A. World Services, Inc.", link: "https://www.aa.org/twelve-steps-twelve-traditions" },
+    { id: 3, title: "Viviendo Sobrio", type: "Guía Práctica", author: "A.A. World Services, Inc.", link: "https://www.aa.org/living-sober-0" },
+    { id: 4, title: "Reflexiones Diarias", type: "Meditaciones", author: "A.A. World Services, Inc.", link: "https://www.aa.org/daily-reflections" }
+];

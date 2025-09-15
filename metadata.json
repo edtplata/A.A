@@ -1,0 +1,5 @@
+{
+  "name": "App Padrino",
+  "description": "A virtual companion app for individuals in recovery, offering access to the 12 Steps, 12 Traditions, literature, a supportive community, progress tracking, and an AI-powered virtual sponsor for guidance and support.",
+  "requestFramePermissions": []
+}
